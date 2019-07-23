@@ -5,7 +5,7 @@ import (
 	"os"
 )
 
-func test1() {
+func changeFuncName2() {
 	f, err := os.Open("/tmp/test.txt") //ISSUE
 	check(err)
 	//defer f.Close()
