@@ -4,6 +4,6 @@ import (
 	"fmt"
 )
 
-func afilefunc() {
-	fmt.Println("Hello World")
+func aFunc() {
+	fmt.Println("the following sentence is true. the preceding sentence is false.")
 }
